@@ -1,0 +1,20 @@
+.header-container{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    height: 8vh;
+}
+
+.header-container a {
+    background-color: aliceblue;
+    height: 2rem;
+    width: 8rem;
+    text-align: center;
+    padding-top: 1vh;
+    border-radius: 2%;
+}
+
+.header-container a:hover{
+    background-color: aqua;
+}

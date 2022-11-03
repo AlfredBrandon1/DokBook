@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    height: 90vh;
+    /* background-color: rgba(209, 237, 237, 0.77); */
+    background: url('./images/background.jpg');
+    background-size: cover;
+
+}
+/* Patient List page */
+.patient-list-table td, th{
+    background-color: rgb(255, 255, 255);
+    border-radius: 2%;
+    height: 5vh;
+    width: 12vh;
+    padding: 1vh;
+    border-collapse: collapse;
+
+}
+
+/* Add Patient page */
+.add-patient-container, .patient-list-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.add-patient-table{
+    height: 50vh;
+    width: 50vh;
+    padding: 1rem;
+    background-color: rgba(142, 142, 151, 0.2);
+    border-radius: 2%;
+    text-align: center;
+}
+
+.input-text-box{
+    height: 2rem;
+    width: 17rem;
+}
+
+.submit-patient{
+    height: 6vh;
+    width: 20vh;
+    margin-left: 8rem;
+    background-color: rgba(70, 70, 76, 0.399);
+    font-size: 1rem;
+}
+
+.submit-patient:hover{
+    background-color: rgba(0, 0, 0, 0.574);
+
+}
+
+/* Calendar page */
+.my-calendar{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+/* view profile button in table row */
+.view-profile {
+    width: 6rem;
+    margin: 1rem;
+    background-color: aqua;
+}
+
+/* patient profile page */
+.patient-profile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 20%;
+    width: 50%;
+    background-color: aliceblue;
+    position: relative;
+    top: 10vh;
+    left: 40vh;
+}
+/* patient profile header */
+.patient-profile h2{ 
+    text-align: center;
+}
+
+.PhoneInput input{
+    height: 2rem;
+    width: 2rem;
+}
+
+/* spreadsheer component */
+.spreadsheet-container{ 
+    display: flex;
+    justify-content: center;
+}
+
+/* about page container */
+.about-page-container{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* birthdate picker in Add Patient Page */
+.birthdate-picker{
+    background-color: white;
+}
